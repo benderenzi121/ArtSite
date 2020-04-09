@@ -1,0 +1,70 @@
+{% extends "users/base.html" %}
+
+{% block content %}
+<div class = 'container-fluid'>
+<div class = 'row' style = "margin-top: 10px">
+<div class = 'col-sm-3' style = "margin-top:75px">
+    
+    <div class="btn-group-vertical btn-group-fluid bg-secondary" style="width:100%" style = "margin-top:100px">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <button type="button" class="btn btn-secondary">3</button>
+    <button type="button" class="btn btn-secondary btn-block" >4</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <button type="button" class="btn btn-secondary">3</button>
+    <button type="button" class="btn btn-secondary btn-block" >4</button>
+</div>
+    
+    
+</div>
+
+
+<div class = 'col-sm-9 bg-light'style = "margin-bottom: 10px;margin-top: 10px;" >
+    
+   <div class="jumbotron" style = "margin-top: 10px;">
+  <h1 class="display-4">This page is to work on grid view with bootstrap! </h1>
+  <p class="lead">this site is a work in progress to learn how the pieces to a django project fit together!</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+    
+    
+    </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+<div class="card w-33 ">
+  {% load static %}
+  <img src="{% static "/users/frac2.jpg" %}" class="card-img-top" alt="..." height = '340'>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+
+
+
+<div class="col-sm-4">
+<div class="card w-33 " >
+  {% load static %}
+  <img src="{% static "/users/frac1.jpg" %}" class="card-img-top" alt="..."  height = '340'>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+ <div class="col-sm-4">
+<div class="card w-33">
+  {% load static %}
+  <img src="{% static "/users/frac3.jpg" %}" class="card-img-top" alt="..." height = '340'>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+  </div>
+</div>
+
+{% endblock %}

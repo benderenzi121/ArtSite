@@ -1,0 +1,98 @@
+{% extends "users/base.html" %}
+
+{% block content %}
+<div class="row" style = "margin-top: 10px">
+<div class="col-sm-8">
+ <div class = "centered">
+<div class="jumbotron">
+ 
+  <h1 class="display-4">Welcome Home Friend! </h1>
+  <p class="lead">this site is a work in progress to learn how the pieces to a django project fit together!</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+</div>
+</div>
+ <div class="col-sm-4">
+<div class="card w-33 ">
+  {% load static %}
+  <img src="{% static "/users/frac4.jpg" %}" class="card-img-top" alt="..." height = '340'>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="row" style = "margin-top: 10px">
+  <div class="col-sm-4">
+<div class="card w-33 ">
+  {% load static %}
+  <img src="{% static "/users/frac2.jpg" %}" class="card-img-top" alt="..." height = '340'>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+
+
+
+<div class="col-sm-4">
+<div class="card w-33 " >
+  {% load static %}
+  <img src="{% static "/users/frac1.jpg" %}" class="card-img-top" alt="..."  height = '340'>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+ <div class="col-sm-4">
+<div class="card w-33">
+  {% load static %}
+  <img src="{% static "/users/frac3.jpg" %}" class="card-img-top" alt="..." height = '340'>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="row" style = "margin-top: 10px" >
+  <div class="col-sm-4">
+<div class="card w-33 ">
+  {% load static %}
+  <img src="{% static "/users/frac6.jpg" %}" class="card-img-top" alt="..." height = '340'>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+
+
+
+ <div class="col-sm-4">
+<div class="card w-33 " >
+  {% load static %}
+  <img src="{% static "/users/frac5.jpg" %}" class="card-img-top" alt="..." height = '340' >
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+ <div class="col-sm-4">
+<div class="card w-33" >
+  {% load static %}
+  <img src="{% static "/users/frac4.jpg" %}" class="card-img-top" alt="..." height = '340'>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+  </div>
+</div>
+
+{% endblock %}
+
+
+

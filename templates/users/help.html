@@ -1,0 +1,8 @@
+{% extends "users/base.html" %}
+
+{% block content %}
+<h1>This is the help page! a great place to come when you need help!</h1>
+{% load static %}
+<img src="{% static "/users/corgi.jpg" %}" alt="My image">
+<p>The image above is a static file, from the static files folder! Neat!</p>
+{% endblock %}
